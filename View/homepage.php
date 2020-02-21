@@ -16,7 +16,7 @@
 
 	<section id="guestbook">
 		<div id="messages">
-			<?php $guest->getMsg();?>
+			<?php //echo $guest->getMsg();?>
 		</div>
 	</section>
 

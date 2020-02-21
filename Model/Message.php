@@ -1,7 +1,7 @@
 <?php
 
 
-class Message
+class Message extends Guest
 {
 
 }

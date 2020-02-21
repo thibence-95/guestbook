@@ -6,10 +6,11 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 require 'View/homepage.php';
-require 'Controller/guestData.php';
 require 'Controller/HomepageController.php';
 require 'Model/Guest.php';
-echo $data;
+
+$guest = new Guest();
+
 //include all your model files here
 
 //include all your controllers here

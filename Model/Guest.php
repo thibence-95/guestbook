@@ -8,6 +8,7 @@ class Guest
     private $origin;
     private $stayLen;
     private $msg;
+    private $data;
 
     public function __construct($name, $age, $origin, $stayLen, $msg)
     {
@@ -49,5 +50,14 @@ class Guest
         return $this->msg;
     }
 
+    public function guestMessage()
+    {
+        $this->data = $data = getJsonData("Data/guestmsg.json");
+
+        foreach ($data as $guest) {
+            echo $guest->name. ", ". $guest->age. " from ".$guest->origin. " says: ". $guest->message; ;
+        }
+
+    }
 
 }

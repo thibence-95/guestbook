@@ -16,7 +16,7 @@
 
 	<section id="guestbook">
 		<div id="messages">
-
+			<?php $guest->getMsg();?>
 		</div>
 	</section>
 
@@ -36,7 +36,7 @@
 		<label for="message">You may type your Message hier, Danke</label><br>
 		<input type="text" name="message"><br>
 
-		<button type="submit">Klik hier to put ze messege</button>
+		<button type="submit">Klik hier to put ze Messege</button>
 	</form>
 </section>
 

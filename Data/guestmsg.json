@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Edward, Lianne & Edward II",
+    "origin": "UK",
+    "age": "50 and 54",
+    "stay": "5 days",
+    "message": "Oh, our stay was quite splendid indeed as expected with such a cute sounding name for a tiny hotel in the middle of the Austrian Alps"
+  },
+  {
+    "id": 2,
+    "name": "Eddy Jr",
+    "origin": "UK",
+    "age": "16",
+    "stay": "5 days",
+    "message": "Kept losing my parents, which was a good thing but they kept getting angry at me for no reason, would not recommend"
+  },
+  {
+    "id": 3,
+    "name": "Lisa",
+    "origin": "The Netherlands",
+    "age": "28",
+    "stay": "2 weeks",
+    "message": "Omg I could stay here forever like the energy here was like so amazing. I could like totes like feel the positive vibes like ugh sooo wanna go back already..."
+  }
+]

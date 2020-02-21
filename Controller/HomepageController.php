@@ -18,6 +18,10 @@ function getJsonData (string $filePath) {
 $data = getJsonData('Data/guestmsg.json');
 //var_dump($data);
 
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if
+}
+
 function pushNewJson()
 {
     $data = getJsonData('Data/guestmsg.json');
